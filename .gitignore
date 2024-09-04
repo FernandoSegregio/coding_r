@@ -1,4 +1,18 @@
-.Rproj.user
+# Ignorar arquivos temporários do R
 .Rhistory
-.RData
-.Ruserdata
+.Rapp.history
+.Rproj.user/
+*.Rproj.user/
+  
+# Ignorar dados de saída e resultados
+*.Rdata
+*.rds
+
+# Ignorar diretórios de pacotes e dependências
+.R/library/
+.renv/
+  
+# Ignorar arquivos de configuração do RStudio
+*.Rproj
+
+env.R
