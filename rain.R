@@ -1,7 +1,7 @@
 # Fazendo a requisição para a API
 API_KEY <- 'c60a4792ccbe5983e113c048825b78fb'
 CITY = 'Juiz de Fora'
-CITY2 = 'Belém'
+CITY2 = 'Chicago'
 cities <- c('Juiz de Fora', 'São Paulo', 'Rio de Janeiro', 'Belo Horizonte', 'Brasília')
 
 link_rain <- paste0("https://api.openweathermap.org/data/2.5/forecast?q=", URLencode(CITY2), "&appid=", API_KEY, "&units=metric")
